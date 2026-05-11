@@ -1,0 +1,9 @@
+torch
+torchvision
+gymnasium[atari]
+ale-py
+numpy
+matplotlib
+# opencv-python is required by gymnasium.wrappers.AtariPreprocessing
+# (resize + grayscale). Gymnasium 1.x moved it out of the [atari] extra.
+opencv-python

@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Deep RL project outputs
+dqn/checkpoints/
+ppo/checkpoints/
+runs/
+logs/
+*.pt
+*.png
